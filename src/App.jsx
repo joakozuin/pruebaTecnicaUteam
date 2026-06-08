@@ -1,14 +1,16 @@
 
+
 import './App.css'
 
-function App() {
- 
+import UsersPage from "./pages/UsersPage";
 
+function App() {
   return (
     <>
-
+      <UsersPage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+

@@ -1,9 +1,8 @@
 import "./UserCard.css";
 
-function UserCard({ user }) {
+function UserCard({ user, onDelete, onEdit }) {
   return (
     <div className="userCard">
-
       <div className="avatar">
         {user.name.charAt(0)}
       </div>
@@ -21,15 +20,20 @@ function UserCard({ user }) {
       </p>
 
       <div className="buttonGroup">
-        <button className="btn btnEdit">
+        <button
+          className="btn btnEdit"
+          onClick={() => onEdit(user.id)}
+        >
           Editar
         </button>
 
-        <button className="btn btnDelete">
+        <button
+          className="btn btnDelete"
+          onClick={() => onDelete(user.id)}
+        >
           Eliminar
         </button>
       </div>
-
     </div>
   );
 }
