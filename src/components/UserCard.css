@@ -1,0 +1,86 @@
+.userCard {
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(10px);
+
+  border-radius: 24px;
+  padding: 25px;
+
+  box-shadow:
+    0 15px 35px rgba(0,0,0,0.15);
+
+  transition: all .3s ease;
+
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+.userCard:hover {
+  transform: translateY(-8px);
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+
+  border-radius: 50%;
+
+  background: linear-gradient(
+    135deg,
+    #512da8,
+    #7e57c2
+  );
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.8rem;
+  font-weight: bold;
+
+  margin-bottom: 20px;
+}
+
+.userName {
+  color: #512da8;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.userInfo {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  flex: 1;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.btnEdit {
+  background: #ffca28;
+}
+
+.btnEdit:hover {
+  transform: scale(1.03);
+}
+
+.btnDelete {
+  background: #ef5350;
+  color: white;
+}
+
+.btnDelete:hover {
+  transform: scale(1.03);
+}
