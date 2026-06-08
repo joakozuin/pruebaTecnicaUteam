@@ -1,0 +1,21 @@
+.pageContainer {
+  width: 95%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.pageTitle {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.pageSubtitle {
+  text-align: center;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+}
