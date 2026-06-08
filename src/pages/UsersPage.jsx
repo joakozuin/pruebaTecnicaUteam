@@ -78,7 +78,7 @@ function UsersPage() {
   return (
     <div className="pageContainer">
       <h1 className="pageTitle">
-        Prueba Técnica Uteam
+        Prueba Técnica 
       </h1>
 
       <p className="pageSubtitle">
