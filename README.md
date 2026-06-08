@@ -1,5 +1,10 @@
 # Prueba Técnica React - Uteam
 
+## Aplicación desplegada en Vercel:
+
+🔗 https://prueba-tecnica-uteam.vercel.app/
+
+
 ## Descripción
 
 Aplicación web desarrollada con React y Vite que consume información desde la API REST de JSONPlaceholder.
@@ -14,6 +19,7 @@ La aplicación permite visualizar usuarios obtenidos desde una API externa y rea
 * CSS3
 * Fetch API
 * JSONPlaceholder
+* Vercel
 
 ## Funcionalidades
 
